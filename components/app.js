@@ -7,7 +7,7 @@ class App extends Component {
   }
 
   render () {
-    return <h1>Welcome to {this.props.name}</h1>
+    return <h1>Welcome to the History of California Home and Garden Miramar</h1>
   }
 
 }

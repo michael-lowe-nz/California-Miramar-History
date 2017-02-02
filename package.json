@@ -1,7 +1,7 @@
 {
-  "name": "California Miramar History",
+  "name": "CaliforniaMiramarHistory",
   "version": "1.0.0",
-  "description": "it's a real sweet app",
+  "description": "Site detailing the history of California Garden Centre, Miramar",
   "main": "index.js",
   "scripts": {
     "start": "budo . -d --serve bundle.js --live",
