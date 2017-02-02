@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
   font-family: Helvetica;
+  background-color: black;
 }
 
 main {
@@ -20,4 +21,9 @@ main {
 #second {
   z-index: 100;
   margin-top: 100vh;
+}
+
+.logo {
+  width: 100px;
+  display: block;
 }
