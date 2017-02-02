@@ -7,7 +7,14 @@ class App extends Component {
   }
 
   render () {
-    return <h1>Welcome to the History of California Home and Garden Miramar</h1>
+    return (
+      <div className="app">
+        <h1>Welcome to the History of California Home and Garden Miramar</h1>
+        <div>
+          <img src="../img/cali_garage.jpg" className="heroImage"></img>
+        </div>
+      </div>
+    )
   }
 
 }
