@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { bounce } from 'react-animations'
+import Radium from 'radium'
 
 import Header from './Header'
 
@@ -15,6 +17,7 @@ class App extends Component {
   render () {
     return (
       <div className="app">
+        <h1 style={styles}>From humble beginnings...</h1>
         <LogoOld />
         <LogoOldCircle />
         <div className="header">
@@ -31,3 +34,10 @@ class App extends Component {
 }
 
 export default App
+
+const styles = {
+  bounce: {
+    animation: 'x 1s',
+    animationName: Radium.keyframes(bounce, 'bounce')
+  }
+}
