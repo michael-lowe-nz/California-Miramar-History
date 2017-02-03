@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { bounce } from 'react-animations'
 import Radium from 'radium'
 
-import Header from './Header'
+import Nav from './Nav'
 
 // const OldLogo = require('../svg/logo_old')
 import LogoOld from '../svg/logo_old'
@@ -17,15 +17,14 @@ class App extends Component {
   render () {
     return (
       <div className="app">
-        <h1 style={styles}>From humble beginnings...</h1>
-        <LogoOld />
-        <LogoOldCircle />
-        <div className="header">
-          <img src="../img/cali_garage.jpg" className="heroImage" id="first"></img>
-          <h1 className="title">1974</h1>
+        <Nav />
+        <div className="section slide1">
+          <h1>It started as a small fruit shop on Lambton Quay...</h1>
+          <img src="../img/cali_garage.jpg" className="slideImage" id="first"></img>
+          <p className="title">1974</p>
         </div>
-        <div className="section">
-          <img src="../img/cali_aerial.jpg" className="heroImage" id="second"></img>
+        <div className="section slide2">
+          <img src="../img/cali_aerial.jpg" className="slideImage" id="second"></img>
           <h1 className="title">1985</h1>
         </div>
       </div>
