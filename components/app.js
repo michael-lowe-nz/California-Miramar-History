@@ -37,7 +37,7 @@ export default App
 
 const styles = {
   bounce: {
-    animation: 'x 1s',
+    animation: 'x 2s',
     animationName: Radium.keyframes(bounce, 'bounce')
   }
 }
