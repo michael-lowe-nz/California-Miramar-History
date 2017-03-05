@@ -17,10 +17,10 @@ main {
   height: 500px; }
 
 nav {
-  text-decoration: none; }
+  margin: 0 auto; }
   nav li {
-    text-decoration: none; }
-  nav ul {
-    text-decoration: none; }
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px; }
 
 /*# sourceMappingURL=index.css.map */
