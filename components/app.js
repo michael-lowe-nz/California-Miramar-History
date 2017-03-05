@@ -18,10 +18,11 @@ class App extends Component {
     return (
       <div className="app">
         <Nav />
+        <div className="headerSection"></div>
         <div className="section slide1">
           <h1>It started as a small fruit shop on Lambton Quay...</h1>
           <img src="../img/cali_garage.jpg" className="slideImage" id="first"></img>
-          <p className="title">1974</p>
+          <h1 className="title">1974</h1>
         </div>
         <div className="section slide2">
           <img src="../img/cali_aerial.jpg" className="slideImage" id="second"></img>

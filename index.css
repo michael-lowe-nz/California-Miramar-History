@@ -1,15 +1,26 @@
+/** Variables */
 body {
   margin: 0 auto;
   font-family: Helvetica;
   background-color: black;
   color: white;
-}
+  font-weight: 100; }
 
 main {
-  text-align: center;
-}
+  text-align: center; }
 
 .slideImage {
   max-width: 100%;
-  display: block;
-}
+  display: block; }
+
+.headerSection {
+  height: 500px; }
+
+nav {
+  text-decoration: none; }
+  nav li {
+    text-decoration: none; }
+  nav ul {
+    text-decoration: none; }
+
+/*# sourceMappingURL=index.css.map */
